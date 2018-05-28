@@ -3,12 +3,12 @@
   "name": "Kitchen Friend",
   "icons": [
     {
-      "src": "/images/icons-192.png",
+      "src": "https://cdn.glitch.com/675d3e4c-8086-48ea-b884-724aabc6b6b8%2Fkf-192.png?1527490308302",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/images/icons-512.png",
+      "src": "https://cdn.glitch.com/675d3e4c-8086-48ea-b884-724aabc6b6b8%2Fkf-512.png?1527490308970",
       "type": "image/png",
       "sizes": "512x512"
     }
