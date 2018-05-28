@@ -1,0 +1,62 @@
+{
+  "name": "kitchen-friend",
+  "version": "0.0.1",
+  "description": "A friend in the kitchen",
+  "main": "server.js",
+  "scripts": {
+    "start": "rimraf ./public && webpack && babel-register server"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "airtable": "^0.5.6",
+    "body-parser": "^1.18.3",
+    "react-router-dom": "^4.2.2",
+    "react-moment": "^0.7.0",
+    "moment": "^2.22.1",
+    "prop-types": "^15.6.1",
+    "isomorphic-fetch": "^2.2.1",
+    "es6-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "babel-register-cli": "^4.0.0",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "*",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.5.0",
+    "webpack-dev-server": "^2.5.0",
+    "style-loader": "^0.16.1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-3"
+    ],
+    "plugins": [
+      "transform-class-properties"
+    ]
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/kitchen-friend"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "react"
+  ]
+}

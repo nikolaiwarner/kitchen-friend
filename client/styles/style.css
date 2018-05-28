@@ -1,0 +1,118 @@
+html, body {
+  background-color: #000;
+  color: #fff;
+  font-family: helvetica;
+}
+
+button {
+  max-width: 100px;
+  background-color: #000;
+  color: #fff;
+  border: 1 solid #fff;
+}
+
+a {
+  color: #fff;
+  font-weight: 700;
+}
+
+#application {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+}
+
+.loading {
+  -webkit-animation: throb 1.0s infinite ease-in-out;
+  animation: throb 1.0s infinite ease-in-out;
+}
+
+@keyframes throb {
+  0% { 
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  } 100% {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.activitiesContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.activity-title {
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.chalkboard-container {
+  flex-grow: 1;
+}
+
+.shoppinglist {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.shoppinglist-item {
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.3s;
+}
+.shoppinglist-item:active {
+  opacity: 0.3;
+}
+.shoppinglist-item.not-needed {
+  opacity: 0.2;
+}
+.shoppinglist-item input {
+  margin-right: 10px
+}
+
+#newItem {
+  background-color: black;
+  color: white;
+  border: 0;
+  font-size: 20px;
+}
+
+/* .fullscreenButton:fullscreen, .fullscreenButton:-webkit-full-screen {
+  display: none;
+}
+ */
+#fullscreen {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#fullscreen:-webkit-full-screen, #fullscreen:fullscreen {
+  display: none;
+}
+
+.clearButton {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.navbar * {
+  margin-right: 10px
+}

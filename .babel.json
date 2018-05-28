@@ -1,0 +1,1865 @@
+{
+  "{\"filename\":\"/app/server/index.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/server\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.24.1": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server/index.js",
+      "filenameRelative": "/app/server/index.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "index.js",
+      "sourceFileName": "index.js",
+      "sourceRoot": "/app/server",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/server",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "index"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nrequire('babel-register');\nrequire('babel-polyfill');\n\nvar app = (0, _express2.default)();\n\napp.use(_express2.default.static('public'));\n\napp.get(\"/\", function (request, response) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\nvar listener = app.listen(process.env.PORT, function () {\n  console.log('Your app is listening on port ' + listener.address().port);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbInJlcXVpcmUiLCJhcHAiLCJ1c2UiLCJzdGF0aWMiLCJnZXQiLCJyZXF1ZXN0IiwicmVzcG9uc2UiLCJzZW5kRmlsZSIsIl9fZGlybmFtZSIsImxpc3RlbmVyIiwibGlzdGVuIiwicHJvY2VzcyIsImVudiIsIlBPUlQiLCJjb25zb2xlIiwibG9nIiwiYWRkcmVzcyIsInBvcnQiXSwibWFwcGluZ3MiOiI7O0FBR0E7Ozs7OztBQUhBQSxRQUFRLGdCQUFSO0FBQ0FBLFFBQVEsZ0JBQVI7O0FBSUEsSUFBTUMsTUFBTSx3QkFBWjs7QUFFQUEsSUFBSUMsR0FBSixDQUFRLGtCQUFRQyxNQUFSLENBQWUsUUFBZixDQUFSOztBQUVBRixJQUFJRyxHQUFKLENBQVEsR0FBUixFQUFhLFVBQUNDLE9BQUQsRUFBVUMsUUFBVixFQUF1QjtBQUNsQ0EsV0FBU0MsUUFBVCxDQUFxQkMsU0FBckI7QUFDRCxDQUZEOztBQUlBLElBQU1DLFdBQVdSLElBQUlTLE1BQUosQ0FBV0MsUUFBUUMsR0FBUixDQUFZQyxJQUF2QixFQUE2QixZQUFNO0FBQ2xEQyxVQUFRQyxHQUFSLENBQVksbUNBQW1DTixTQUFTTyxPQUFULEdBQW1CQyxJQUFsRTtBQUNELENBRmdCLENBQWpCIiwiZmlsZSI6ImluZGV4LmpzIiwic291cmNlUm9vdCI6Ii9hcHAvc2VydmVyIiwic291cmNlc0NvbnRlbnQiOlsicmVxdWlyZSgnYmFiZWwtcmVnaXN0ZXInKTtcbnJlcXVpcmUoJ2JhYmVsLXBvbHlmaWxsJyk7XG5cbmltcG9ydCBleHByZXNzIGZyb20gJ2V4cHJlc3MnO1xuXG5jb25zdCBhcHAgPSBleHByZXNzKCk7XG5cbmFwcC51c2UoZXhwcmVzcy5zdGF0aWMoJ3B1YmxpYycpKTtcblxuYXBwLmdldChcIi9cIiwgKHJlcXVlc3QsIHJlc3BvbnNlKSA9PiB7XG4gIHJlc3BvbnNlLnNlbmRGaWxlKGAke19fZGlybmFtZX0vdmlld3MvaW5kZXguaHRtbGApO1xufSk7XG5cbmNvbnN0IGxpc3RlbmVyID0gYXBwLmxpc3Rlbihwcm9jZXNzLmVudi5QT1JULCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKCdZb3VyIGFwcCBpcyBsaXN0ZW5pbmcgb24gcG9ydCAnICsgbGlzdGVuZXIuYWRkcmVzcygpLnBvcnQpO1xufSk7XG5cbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "index.js"
+      ],
+      "names": [
+        "require",
+        "app",
+        "use",
+        "static",
+        "get",
+        "request",
+        "response",
+        "sendFile",
+        "__dirname",
+        "listener",
+        "listen",
+        "process",
+        "env",
+        "PORT",
+        "console",
+        "log",
+        "address",
+        "port"
+      ],
+      "mappings": ";;AAGA;;;;;;AAHAA,QAAQ,gBAAR;AACAA,QAAQ,gBAAR;;AAIA,IAAMC,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQ,kBAAQC,MAAR,CAAe,QAAf,CAAR;;AAEAF,IAAIG,GAAJ,CAAQ,GAAR,EAAa,UAACC,OAAD,EAAUC,QAAV,EAAuB;AAClCA,WAASC,QAAT,CAAqBC,SAArB;AACD,CAFD;;AAIA,IAAMC,WAAWR,IAAIS,MAAJ,CAAWC,QAAQC,GAAR,CAAYC,IAAvB,EAA6B,YAAM;AAClDC,UAAQC,GAAR,CAAY,mCAAmCN,SAASO,OAAT,GAAmBC,IAAlE;AACD,CAFgB,CAAjB",
+      "file": "index.js",
+      "sourceRoot": "/app/server",
+      "sourcesContent": [
+        "require('babel-register');\nrequire('babel-polyfill');\n\nimport express from 'express';\n\nconst app = express();\n\napp.use(express.static('public'));\n\napp.get(\"/\", (request, response) => {\n  response.sendFile(`${__dirname}/views/index.html`);\n});\n\nconst listener = app.listen(process.env.PORT, () => {\n  console.log('Your app is listening on port ' + listener.address().port);\n});\n\n"
+      ]
+    },
+    "mtime": 1497985239458
+  },
+  "{\"filename\":\"/app/server.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.24.1": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "airtable",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Airtable"
+              }
+            ]
+          },
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server.js",
+      "filenameRelative": "/app/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _airtable = require('airtable');\n\nvar _airtable2 = _interopRequireDefault(_airtable);\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.use(_express2.default.static('public'));\n\napp.get('/', function (request, response) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedResponse = null;\nvar cachedResponseDate = null;\n\nvar airtableBase = new _airtable2.default({\n  apiKey: process.env.AIRTABLE_API_KEY\n}).base(process.env.AIRTABLE_BASE_ID);\n\napp.get(\"/api/shoppinglist\", function (_, response) {\n  if (cachedResponse && new Date() - cachedResponseDate < cacheTimeoutMs) {\n    response.send(cachedResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view'\n    }).firstPage(function (error, records) {\n      if (error) {\n        response.send({ error: JSON.stringify(error) });\n      } else {\n        cachedResponse = {\n          items: records.map(function (record) {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          })\n        };\n        cachedResponseDate = new Date();\n        response.send(cachedResponse);\n      }\n    });\n  }\n});\n\nvar listener = app.listen(process.env.PORT, function () {\n  console.log('Your app is listening on port ' + listener.address().port + '. \\uD83D\\uDEA2');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJhcHAiLCJ1c2UiLCJzdGF0aWMiLCJnZXQiLCJyZXF1ZXN0IiwicmVzcG9uc2UiLCJzZW5kRmlsZSIsIl9fZGlybmFtZSIsImNhY2hlVGltZW91dE1zIiwiY2FjaGVkUmVzcG9uc2UiLCJjYWNoZWRSZXNwb25zZURhdGUiLCJhaXJ0YWJsZUJhc2UiLCJhcGlLZXkiLCJwcm9jZXNzIiwiZW52IiwiQUlSVEFCTEVfQVBJX0tFWSIsImJhc2UiLCJBSVJUQUJMRV9CQVNFX0lEIiwiXyIsIkRhdGUiLCJzZW5kIiwic2VsZWN0IiwibWF4UmVjb3JkcyIsInZpZXciLCJmaXJzdFBhZ2UiLCJlcnJvciIsInJlY29yZHMiLCJKU09OIiwic3RyaW5naWZ5IiwiaXRlbXMiLCJtYXAiLCJpZCIsInJlY29yZCIsIm5hbWUiLCJuZWVkZWQiLCJub3RlcyIsImxpc3RlbmVyIiwibGlzdGVuIiwiUE9SVCIsImNvbnNvbGUiLCJsb2ciLCJhZGRyZXNzIiwicG9ydCJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7Ozs7QUFFQSxJQUFNQSxNQUFNLHdCQUFaOztBQUlBQSxJQUFJQyxHQUFKLENBQVEsa0JBQVFDLE1BQVIsQ0FBZSxRQUFmLENBQVI7O0FBRUFGLElBQUlHLEdBQUosQ0FBUSxHQUFSLEVBQWEsVUFBQ0MsT0FBRCxFQUFVQyxRQUFWLEVBQXVCO0FBQ2xDQSxXQUFTQyxRQUFULENBQXFCQyxTQUFyQjtBQUNELENBRkQ7O0FBSUE7QUFDQTtBQUNBLElBQUlDLGlCQUFpQixJQUFJLElBQXpCLEMsQ0FBK0I7QUFDL0IsSUFBSUMsaUJBQWlCLElBQXJCO0FBQ0EsSUFBSUMscUJBQXFCLElBQXpCOztBQUVBLElBQUlDLGVBQWUsdUJBQWE7QUFDOUJDLFVBQVFDLFFBQVFDLEdBQVIsQ0FBWUM7QUFEVSxDQUFiLEVBRWhCQyxJQUZnQixDQUVYSCxRQUFRQyxHQUFSLENBQVlHLGdCQUZELENBQW5COztBQUlBakIsSUFBSUcsR0FBSixDQUFRLG1CQUFSLEVBQTZCLFVBQVNlLENBQVQsRUFBWWIsUUFBWixFQUFzQjtBQUNqRCxNQUFJSSxrQkFBa0IsSUFBSVUsSUFBSixLQUFhVCxrQkFBYixHQUFrQ0YsY0FBeEQsRUFBd0U7QUFDdEVILGFBQVNlLElBQVQsQ0FBY1gsY0FBZDtBQUNELEdBRkQsTUFFTztBQUNMRSxpQkFBYSxjQUFiLEVBQTZCVSxNQUE3QixDQUFvQztBQUNsQ0Msa0JBQVksR0FEc0I7QUFFbENDLFlBQU07QUFGNEIsS0FBcEMsRUFHR0MsU0FISCxDQUdhLFVBQVNDLEtBQVQsRUFBZ0JDLE9BQWhCLEVBQXlCO0FBQ3BDLFVBQUlELEtBQUosRUFBVztBQUNUcEIsaUJBQVNlLElBQVQsQ0FBYyxFQUFDSyxPQUFPRSxLQUFLQyxTQUFMLENBQWVILEtBQWYsQ0FBUixFQUFkO0FBQ0QsT0FGRCxNQUVPO0FBQ0xoQix5QkFBaUI7QUFDZm9CLGlCQUFPSCxRQUFRSSxHQUFSLENBQVksa0JBQVU7QUFDM0IsbUJBQU87QUFDTEMsa0JBQUlDLE9BQU9ELEVBRE47QUFFTEUsb0JBQU1ELE9BQU83QixHQUFQLENBQVcsTUFBWCxDQUZEO0FBR0wrQixzQkFBUUYsT0FBTzdCLEdBQVAsQ0FBVyxRQUFYLENBSEg7QUFJTGdDLHFCQUFPSCxPQUFPN0IsR0FBUCxDQUFXLE9BQVg7QUFKRixhQUFQO0FBTUQsV0FQTTtBQURRLFNBQWpCO0FBVUFPLDZCQUFxQixJQUFJUyxJQUFKLEVBQXJCO0FBQ0FkLGlCQUFTZSxJQUFULENBQWNYLGNBQWQ7QUFDRDtBQUNGLEtBcEJEO0FBcUJEO0FBQ0YsQ0ExQkQ7O0FBNEJBLElBQU0yQixXQUFXcEMsSUFBSXFDLE1BQUosQ0FBV3hCLFFBQVFDLEdBQVIsQ0FBWXdCLElBQXZCLEVBQTZCLFlBQU07QUFDbERDLFVBQVFDLEdBQVIsb0NBQTZDSixTQUFTSyxPQUFULEdBQW1CQyxJQUFoRTtBQUNELENBRmdCLENBQWpCIiwiZmlsZSI6InNlcnZlci5qcyIsInNvdXJjZVJvb3QiOiIvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEFpcnRhYmxlIGZyb20gJ2FpcnRhYmxlJ1xuaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcydcblxuY29uc3QgYXBwID0gZXhwcmVzcygpXG5cblxuXG5hcHAudXNlKGV4cHJlc3Muc3RhdGljKCdwdWJsaWMnKSk7XG5cbmFwcC5nZXQoJy8nLCAocmVxdWVzdCwgcmVzcG9uc2UpID0+IHtcbiAgcmVzcG9uc2Uuc2VuZEZpbGUoYCR7X19kaXJuYW1lfS92aWV3cy9pbmRleC5odG1sYCk7XG59KTtcblxuLy8gQ2FjaGUgdGhlIHJlY29yZHMgaW4gY2FzZSB3ZSBnZXQgYSBsb3Qgb2YgdHJhZmZpYy5cbi8vIE90aGVyd2lzZSwgd2UnbGwgaGl0IEFpcnRhYmxlJ3MgcmF0ZSBsaW1pdC5cbnZhciBjYWNoZVRpbWVvdXRNcyA9IDUgKiAxMDAwOyAvLyBDYWNoZSBmb3IgNSBzZWNvbmRzLlxudmFyIGNhY2hlZFJlc3BvbnNlID0gbnVsbDtcbnZhciBjYWNoZWRSZXNwb25zZURhdGUgPSBudWxsO1xuXG52YXIgYWlydGFibGVCYXNlID0gbmV3IEFpcnRhYmxlKHtcbiAgYXBpS2V5OiBwcm9jZXNzLmVudi5BSVJUQUJMRV9BUElfS0VZLFxufSkuYmFzZShwcm9jZXNzLmVudi5BSVJUQUJMRV9CQVNFX0lEKVxuXG5hcHAuZ2V0KFwiL2FwaS9zaG9wcGluZ2xpc3RcIiwgZnVuY3Rpb24oXywgcmVzcG9uc2UpIHtcbiAgaWYgKGNhY2hlZFJlc3BvbnNlICYmIG5ldyBEYXRlKCkgLSBjYWNoZWRSZXNwb25zZURhdGUgPCBjYWNoZVRpbWVvdXRNcykge1xuICAgIHJlc3BvbnNlLnNlbmQoY2FjaGVkUmVzcG9uc2UpO1xuICB9IGVsc2Uge1xuICAgIGFpcnRhYmxlQmFzZSgnc2hvcHBpbmdsaXN0Jykuc2VsZWN0KHtcbiAgICAgIG1heFJlY29yZHM6IDEwMCxcbiAgICAgIHZpZXc6ICdHcmlkIHZpZXcnLFxuICAgIH0pLmZpcnN0UGFnZShmdW5jdGlvbihlcnJvciwgcmVjb3Jkcykge1xuICAgICAgaWYgKGVycm9yKSB7XG4gICAgICAgIHJlc3BvbnNlLnNlbmQoe2Vycm9yOiBKU09OLnN0cmluZ2lmeShlcnJvcil9KTtcbiAgICAgIH0gZWxzZSB7XG4gICAgICAgIGNhY2hlZFJlc3BvbnNlID0ge1xuICAgICAgICAgIGl0ZW1zOiByZWNvcmRzLm1hcChyZWNvcmQgPT4ge1xuICAgICAgICAgICAgcmV0dXJuIHtcbiAgICAgICAgICAgICAgaWQ6IHJlY29yZC5pZCxcbiAgICAgICAgICAgICAgbmFtZTogcmVjb3JkLmdldCgnbmFtZScpLFxuICAgICAgICAgICAgICBuZWVkZWQ6IHJlY29yZC5nZXQoJ25lZWRlZCcpLFxuICAgICAgICAgICAgICBub3RlczogcmVjb3JkLmdldCgnbm90ZXMnKVxuICAgICAgICAgICAgfTtcbiAgICAgICAgICB9KSxcbiAgICAgICAgfVxuICAgICAgICBjYWNoZWRSZXNwb25zZURhdGUgPSBuZXcgRGF0ZSgpXG4gICAgICAgIHJlc3BvbnNlLnNlbmQoY2FjaGVkUmVzcG9uc2UpXG4gICAgICB9XG4gICAgfSk7XG4gIH1cbn0pXG5cbmNvbnN0IGxpc3RlbmVyID0gYXBwLmxpc3Rlbihwcm9jZXNzLmVudi5QT1JULCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKGBZb3VyIGFwcCBpcyBsaXN0ZW5pbmcgb24gcG9ydCAke2xpc3RlbmVyLmFkZHJlc3MoKS5wb3J0fS4g8J+aomApO1xufSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "app",
+        "use",
+        "static",
+        "get",
+        "request",
+        "response",
+        "sendFile",
+        "__dirname",
+        "cacheTimeoutMs",
+        "cachedResponse",
+        "cachedResponseDate",
+        "airtableBase",
+        "apiKey",
+        "process",
+        "env",
+        "AIRTABLE_API_KEY",
+        "base",
+        "AIRTABLE_BASE_ID",
+        "_",
+        "Date",
+        "send",
+        "select",
+        "maxRecords",
+        "view",
+        "firstPage",
+        "error",
+        "records",
+        "JSON",
+        "stringify",
+        "items",
+        "map",
+        "id",
+        "record",
+        "name",
+        "needed",
+        "notes",
+        "listener",
+        "listen",
+        "PORT",
+        "console",
+        "log",
+        "address",
+        "port"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AAEA,IAAMA,MAAM,wBAAZ;;AAIAA,IAAIC,GAAJ,CAAQ,kBAAQC,MAAR,CAAe,QAAf,CAAR;;AAEAF,IAAIG,GAAJ,CAAQ,GAAR,EAAa,UAACC,OAAD,EAAUC,QAAV,EAAuB;AAClCA,WAASC,QAAT,CAAqBC,SAArB;AACD,CAFD;;AAIA;AACA;AACA,IAAIC,iBAAiB,IAAI,IAAzB,C,CAA+B;AAC/B,IAAIC,iBAAiB,IAArB;AACA,IAAIC,qBAAqB,IAAzB;;AAEA,IAAIC,eAAe,uBAAa;AAC9BC,UAAQC,QAAQC,GAAR,CAAYC;AADU,CAAb,EAEhBC,IAFgB,CAEXH,QAAQC,GAAR,CAAYG,gBAFD,CAAnB;;AAIAjB,IAAIG,GAAJ,CAAQ,mBAAR,EAA6B,UAASe,CAAT,EAAYb,QAAZ,EAAsB;AACjD,MAAII,kBAAkB,IAAIU,IAAJ,KAAaT,kBAAb,GAAkCF,cAAxD,EAAwE;AACtEH,aAASe,IAAT,CAAcX,cAAd;AACD,GAFD,MAEO;AACLE,iBAAa,cAAb,EAA6BU,MAA7B,CAAoC;AAClCC,kBAAY,GADsB;AAElCC,YAAM;AAF4B,KAApC,EAGGC,SAHH,CAGa,UAASC,KAAT,EAAgBC,OAAhB,EAAyB;AACpC,UAAID,KAAJ,EAAW;AACTpB,iBAASe,IAAT,CAAc,EAACK,OAAOE,KAAKC,SAAL,CAAeH,KAAf,CAAR,EAAd;AACD,OAFD,MAEO;AACLhB,yBAAiB;AACfoB,iBAAOH,QAAQI,GAAR,CAAY,kBAAU;AAC3B,mBAAO;AACLC,kBAAIC,OAAOD,EADN;AAELE,oBAAMD,OAAO7B,GAAP,CAAW,MAAX,CAFD;AAGL+B,sBAAQF,OAAO7B,GAAP,CAAW,QAAX,CAHH;AAILgC,qBAAOH,OAAO7B,GAAP,CAAW,OAAX;AAJF,aAAP;AAMD,WAPM;AADQ,SAAjB;AAUAO,6BAAqB,IAAIS,IAAJ,EAArB;AACAd,iBAASe,IAAT,CAAcX,cAAd;AACD;AACF,KApBD;AAqBD;AACF,CA1BD;;AA4BA,IAAM2B,WAAWpC,IAAIqC,MAAJ,CAAWxB,QAAQC,GAAR,CAAYwB,IAAvB,EAA6B,YAAM;AAClDC,UAAQC,GAAR,oCAA6CJ,SAASK,OAAT,GAAmBC,IAAhE;AACD,CAFgB,CAAjB",
+      "file": "server.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import Airtable from 'airtable'\nimport express from 'express'\n\nconst app = express()\n\n\n\napp.use(express.static('public'));\n\napp.get('/', (request, response) => {\n  response.sendFile(`${__dirname}/views/index.html`);\n});\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedResponse = null;\nvar cachedResponseDate = null;\n\nvar airtableBase = new Airtable({\n  apiKey: process.env.AIRTABLE_API_KEY,\n}).base(process.env.AIRTABLE_BASE_ID)\n\napp.get(\"/api/shoppinglist\", function(_, response) {\n  if (cachedResponse && new Date() - cachedResponseDate < cacheTimeoutMs) {\n    response.send(cachedResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view',\n    }).firstPage(function(error, records) {\n      if (error) {\n        response.send({error: JSON.stringify(error)});\n      } else {\n        cachedResponse = {\n          items: records.map(record => {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          }),\n        }\n        cachedResponseDate = new Date()\n        response.send(cachedResponse)\n      }\n    });\n  }\n})\n\nconst listener = app.listen(process.env.PORT, () => {\n  console.log(`Your app is listening on port ${listener.address().port}. 🚢`);\n});\n"
+      ]
+    },
+    "mtime": 1525716217116
+  },
+  "{\"filename\":\"/app/server.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.24.1": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "airtable",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Airtable"
+              }
+            ]
+          },
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server.js",
+      "filenameRelative": "/app/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _airtable = require('airtable');\n\nvar _airtable2 = _interopRequireDefault(_airtable);\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.use(_express2.default.static('public'));\n\napp.get('/', function (request, response) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedResponse = null;\nvar cachedResponseDate = null;\n\nvar airtableBase = new _airtable2.default({\n  apiKey: process.env.AIRTABLE_API_KEY\n}).base(process.env.AIRTABLE_BASE_ID);\n\napp.get(\"/api/shoppinglist\", function (_, response) {\n  if (cachedResponse && new Date() - cachedResponseDate < cacheTimeoutMs) {\n    response.send(cachedResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view'\n    }).firstPage(function (error, records) {\n      if (error) {\n        response.send({ error: JSON.stringify(error) });\n      } else {\n        cachedResponse = {\n          items: records.map(function (record) {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          })\n        };\n        cachedResponseDate = new Date();\n        response.send(cachedResponse);\n      }\n    });\n  }\n});\n\nvar listener = app.listen(process.env.PORT, function () {\n  console.log('Your app is listening on port ' + listener.address().port + '. \\uD83D\\uDEA2');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJhcHAiLCJ1c2UiLCJzdGF0aWMiLCJnZXQiLCJyZXF1ZXN0IiwicmVzcG9uc2UiLCJzZW5kRmlsZSIsIl9fZGlybmFtZSIsImNhY2hlVGltZW91dE1zIiwiY2FjaGVkUmVzcG9uc2UiLCJjYWNoZWRSZXNwb25zZURhdGUiLCJhaXJ0YWJsZUJhc2UiLCJhcGlLZXkiLCJwcm9jZXNzIiwiZW52IiwiQUlSVEFCTEVfQVBJX0tFWSIsImJhc2UiLCJBSVJUQUJMRV9CQVNFX0lEIiwiXyIsIkRhdGUiLCJzZW5kIiwic2VsZWN0IiwibWF4UmVjb3JkcyIsInZpZXciLCJmaXJzdFBhZ2UiLCJlcnJvciIsInJlY29yZHMiLCJKU09OIiwic3RyaW5naWZ5IiwiaXRlbXMiLCJtYXAiLCJpZCIsInJlY29yZCIsIm5hbWUiLCJuZWVkZWQiLCJub3RlcyIsImxpc3RlbmVyIiwibGlzdGVuIiwiUE9SVCIsImNvbnNvbGUiLCJsb2ciLCJhZGRyZXNzIiwicG9ydCJdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7OztBQUNBOzs7Ozs7QUFFQSxJQUFNQSxNQUFNLHdCQUFaOztBQUlBQSxJQUFJQyxHQUFKLENBQVEsa0JBQVFDLE1BQVIsQ0FBZSxRQUFmLENBQVI7O0FBRUFGLElBQUlHLEdBQUosQ0FBUSxHQUFSLEVBQWEsVUFBQ0MsT0FBRCxFQUFVQyxRQUFWLEVBQXVCO0FBQ2xDQSxXQUFTQyxRQUFULENBQXFCQyxTQUFyQjtBQUNELENBRkQ7O0FBSUE7QUFDQTtBQUNBLElBQUlDLGlCQUFpQixJQUFJLElBQXpCLEMsQ0FBK0I7QUFDL0IsSUFBSUMsaUJBQWlCLElBQXJCO0FBQ0EsSUFBSUMscUJBQXFCLElBQXpCOztBQUVBLElBQUlDLGVBQWUsdUJBQWE7QUFDOUJDLFVBQVFDLFFBQVFDLEdBQVIsQ0FBWUM7QUFEVSxDQUFiLEVBRWhCQyxJQUZnQixDQUVYSCxRQUFRQyxHQUFSLENBQVlHLGdCQUZELENBQW5COztBQUlBakIsSUFBSUcsR0FBSixDQUFRLG1CQUFSLEVBQTZCLFVBQVNlLENBQVQsRUFBWWIsUUFBWixFQUFzQjtBQUNqRCxNQUFJSSxrQkFBa0IsSUFBSVUsSUFBSixLQUFhVCxrQkFBYixHQUFrQ0YsY0FBeEQsRUFBd0U7QUFDdEVILGFBQVNlLElBQVQsQ0FBY1gsY0FBZDtBQUNELEdBRkQsTUFFTztBQUNMRSxpQkFBYSxjQUFiLEVBQTZCVSxNQUE3QixDQUFvQztBQUNsQ0Msa0JBQVksR0FEc0I7QUFFbENDLFlBQU07QUFGNEIsS0FBcEMsRUFHR0MsU0FISCxDQUdhLFVBQVNDLEtBQVQsRUFBZ0JDLE9BQWhCLEVBQXlCO0FBQ3BDLFVBQUlELEtBQUosRUFBVztBQUNUcEIsaUJBQVNlLElBQVQsQ0FBYyxFQUFDSyxPQUFPRSxLQUFLQyxTQUFMLENBQWVILEtBQWYsQ0FBUixFQUFkO0FBQ0QsT0FGRCxNQUVPO0FBQ0xoQix5QkFBaUI7QUFDZm9CLGlCQUFPSCxRQUFRSSxHQUFSLENBQVksa0JBQVU7QUFDM0IsbUJBQU87QUFDTEMsa0JBQUlDLE9BQU9ELEVBRE47QUFFTEUsb0JBQU1ELE9BQU83QixHQUFQLENBQVcsTUFBWCxDQUZEO0FBR0wrQixzQkFBUUYsT0FBTzdCLEdBQVAsQ0FBVyxRQUFYLENBSEg7QUFJTGdDLHFCQUFPSCxPQUFPN0IsR0FBUCxDQUFXLE9BQVg7QUFKRixhQUFQO0FBTUQsV0FQTTtBQURRLFNBQWpCO0FBVUFPLDZCQUFxQixJQUFJUyxJQUFKLEVBQXJCO0FBQ0FkLGlCQUFTZSxJQUFULENBQWNYLGNBQWQ7QUFDRDtBQUNGLEtBcEJEO0FBcUJEO0FBQ0YsQ0ExQkQ7O0FBNEJBLElBQU0yQixXQUFXcEMsSUFBSXFDLE1BQUosQ0FBV3hCLFFBQVFDLEdBQVIsQ0FBWXdCLElBQXZCLEVBQTZCLFlBQU07QUFDbERDLFVBQVFDLEdBQVIsb0NBQTZDSixTQUFTSyxPQUFULEdBQW1CQyxJQUFoRTtBQUNELENBRmdCLENBQWpCIiwiZmlsZSI6InNlcnZlci5qcyIsInNvdXJjZVJvb3QiOiIvYXBwIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IEFpcnRhYmxlIGZyb20gJ2FpcnRhYmxlJ1xuaW1wb3J0IGV4cHJlc3MgZnJvbSAnZXhwcmVzcydcblxuY29uc3QgYXBwID0gZXhwcmVzcygpXG5cblxuXG5hcHAudXNlKGV4cHJlc3Muc3RhdGljKCdwdWJsaWMnKSk7XG5cbmFwcC5nZXQoJy8nLCAocmVxdWVzdCwgcmVzcG9uc2UpID0+IHtcbiAgcmVzcG9uc2Uuc2VuZEZpbGUoYCR7X19kaXJuYW1lfS92aWV3cy9pbmRleC5odG1sYCk7XG59KTtcblxuLy8gQ2FjaGUgdGhlIHJlY29yZHMgaW4gY2FzZSB3ZSBnZXQgYSBsb3Qgb2YgdHJhZmZpYy5cbi8vIE90aGVyd2lzZSwgd2UnbGwgaGl0IEFpcnRhYmxlJ3MgcmF0ZSBsaW1pdC5cbnZhciBjYWNoZVRpbWVvdXRNcyA9IDUgKiAxMDAwOyAvLyBDYWNoZSBmb3IgNSBzZWNvbmRzLlxudmFyIGNhY2hlZFJlc3BvbnNlID0gbnVsbDtcbnZhciBjYWNoZWRSZXNwb25zZURhdGUgPSBudWxsO1xuXG52YXIgYWlydGFibGVCYXNlID0gbmV3IEFpcnRhYmxlKHtcbiAgYXBpS2V5OiBwcm9jZXNzLmVudi5BSVJUQUJMRV9BUElfS0VZLFxufSkuYmFzZShwcm9jZXNzLmVudi5BSVJUQUJMRV9CQVNFX0lEKVxuXG5hcHAuZ2V0KFwiL2FwaS9zaG9wcGluZ2xpc3RcIiwgZnVuY3Rpb24oXywgcmVzcG9uc2UpIHtcbiAgaWYgKGNhY2hlZFJlc3BvbnNlICYmIG5ldyBEYXRlKCkgLSBjYWNoZWRSZXNwb25zZURhdGUgPCBjYWNoZVRpbWVvdXRNcykge1xuICAgIHJlc3BvbnNlLnNlbmQoY2FjaGVkUmVzcG9uc2UpO1xuICB9IGVsc2Uge1xuICAgIGFpcnRhYmxlQmFzZSgnc2hvcHBpbmdsaXN0Jykuc2VsZWN0KHtcbiAgICAgIG1heFJlY29yZHM6IDEwMCxcbiAgICAgIHZpZXc6ICdHcmlkIHZpZXcnLFxuICAgIH0pLmZpcnN0UGFnZShmdW5jdGlvbihlcnJvciwgcmVjb3Jkcykge1xuICAgICAgaWYgKGVycm9yKSB7XG4gICAgICAgIHJlc3BvbnNlLnNlbmQoe2Vycm9yOiBKU09OLnN0cmluZ2lmeShlcnJvcil9KTtcbiAgICAgIH0gZWxzZSB7XG4gICAgICAgIGNhY2hlZFJlc3BvbnNlID0ge1xuICAgICAgICAgIGl0ZW1zOiByZWNvcmRzLm1hcChyZWNvcmQgPT4ge1xuICAgICAgICAgICAgcmV0dXJuIHtcbiAgICAgICAgICAgICAgaWQ6IHJlY29yZC5pZCxcbiAgICAgICAgICAgICAgbmFtZTogcmVjb3JkLmdldCgnbmFtZScpLFxuICAgICAgICAgICAgICBuZWVkZWQ6IHJlY29yZC5nZXQoJ25lZWRlZCcpLFxuICAgICAgICAgICAgICBub3RlczogcmVjb3JkLmdldCgnbm90ZXMnKVxuICAgICAgICAgICAgfTtcbiAgICAgICAgICB9KSxcbiAgICAgICAgfVxuICAgICAgICBjYWNoZWRSZXNwb25zZURhdGUgPSBuZXcgRGF0ZSgpXG4gICAgICAgIHJlc3BvbnNlLnNlbmQoY2FjaGVkUmVzcG9uc2UpXG4gICAgICB9XG4gICAgfSk7XG4gIH1cbn0pXG5cbmNvbnN0IGxpc3RlbmVyID0gYXBwLmxpc3Rlbihwcm9jZXNzLmVudi5QT1JULCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKGBZb3VyIGFwcCBpcyBsaXN0ZW5pbmcgb24gcG9ydCAke2xpc3RlbmVyLmFkZHJlc3MoKS5wb3J0fS4g8J+aomApO1xufSk7XG4iXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "app",
+        "use",
+        "static",
+        "get",
+        "request",
+        "response",
+        "sendFile",
+        "__dirname",
+        "cacheTimeoutMs",
+        "cachedResponse",
+        "cachedResponseDate",
+        "airtableBase",
+        "apiKey",
+        "process",
+        "env",
+        "AIRTABLE_API_KEY",
+        "base",
+        "AIRTABLE_BASE_ID",
+        "_",
+        "Date",
+        "send",
+        "select",
+        "maxRecords",
+        "view",
+        "firstPage",
+        "error",
+        "records",
+        "JSON",
+        "stringify",
+        "items",
+        "map",
+        "id",
+        "record",
+        "name",
+        "needed",
+        "notes",
+        "listener",
+        "listen",
+        "PORT",
+        "console",
+        "log",
+        "address",
+        "port"
+      ],
+      "mappings": ";;AAAA;;;;AACA;;;;;;AAEA,IAAMA,MAAM,wBAAZ;;AAIAA,IAAIC,GAAJ,CAAQ,kBAAQC,MAAR,CAAe,QAAf,CAAR;;AAEAF,IAAIG,GAAJ,CAAQ,GAAR,EAAa,UAACC,OAAD,EAAUC,QAAV,EAAuB;AAClCA,WAASC,QAAT,CAAqBC,SAArB;AACD,CAFD;;AAIA;AACA;AACA,IAAIC,iBAAiB,IAAI,IAAzB,C,CAA+B;AAC/B,IAAIC,iBAAiB,IAArB;AACA,IAAIC,qBAAqB,IAAzB;;AAEA,IAAIC,eAAe,uBAAa;AAC9BC,UAAQC,QAAQC,GAAR,CAAYC;AADU,CAAb,EAEhBC,IAFgB,CAEXH,QAAQC,GAAR,CAAYG,gBAFD,CAAnB;;AAIAjB,IAAIG,GAAJ,CAAQ,mBAAR,EAA6B,UAASe,CAAT,EAAYb,QAAZ,EAAsB;AACjD,MAAII,kBAAkB,IAAIU,IAAJ,KAAaT,kBAAb,GAAkCF,cAAxD,EAAwE;AACtEH,aAASe,IAAT,CAAcX,cAAd;AACD,GAFD,MAEO;AACLE,iBAAa,cAAb,EAA6BU,MAA7B,CAAoC;AAClCC,kBAAY,GADsB;AAElCC,YAAM;AAF4B,KAApC,EAGGC,SAHH,CAGa,UAASC,KAAT,EAAgBC,OAAhB,EAAyB;AACpC,UAAID,KAAJ,EAAW;AACTpB,iBAASe,IAAT,CAAc,EAACK,OAAOE,KAAKC,SAAL,CAAeH,KAAf,CAAR,EAAd;AACD,OAFD,MAEO;AACLhB,yBAAiB;AACfoB,iBAAOH,QAAQI,GAAR,CAAY,kBAAU;AAC3B,mBAAO;AACLC,kBAAIC,OAAOD,EADN;AAELE,oBAAMD,OAAO7B,GAAP,CAAW,MAAX,CAFD;AAGL+B,sBAAQF,OAAO7B,GAAP,CAAW,QAAX,CAHH;AAILgC,qBAAOH,OAAO7B,GAAP,CAAW,OAAX;AAJF,aAAP;AAMD,WAPM;AADQ,SAAjB;AAUAO,6BAAqB,IAAIS,IAAJ,EAArB;AACAd,iBAASe,IAAT,CAAcX,cAAd;AACD;AACF,KApBD;AAqBD;AACF,CA1BD;;AA4BA,IAAM2B,WAAWpC,IAAIqC,MAAJ,CAAWxB,QAAQC,GAAR,CAAYwB,IAAvB,EAA6B,YAAM;AAClDC,UAAQC,GAAR,oCAA6CJ,SAASK,OAAT,GAAmBC,IAAhE;AACD,CAFgB,CAAjB",
+      "file": "server.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import Airtable from 'airtable'\nimport express from 'express'\n\nconst app = express()\n\n\n\napp.use(express.static('public'));\n\napp.get('/', (request, response) => {\n  response.sendFile(`${__dirname}/views/index.html`);\n});\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedResponse = null;\nvar cachedResponseDate = null;\n\nvar airtableBase = new Airtable({\n  apiKey: process.env.AIRTABLE_API_KEY,\n}).base(process.env.AIRTABLE_BASE_ID)\n\napp.get(\"/api/shoppinglist\", function(_, response) {\n  if (cachedResponse && new Date() - cachedResponseDate < cacheTimeoutMs) {\n    response.send(cachedResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view',\n    }).firstPage(function(error, records) {\n      if (error) {\n        response.send({error: JSON.stringify(error)});\n      } else {\n        cachedResponse = {\n          items: records.map(record => {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          }),\n        }\n        cachedResponseDate = new Date()\n        response.send(cachedResponse)\n      }\n    });\n  }\n})\n\nconst listener = app.listen(process.env.PORT, () => {\n  console.log(`Your app is listening on port ${listener.address().port}. 🚢`);\n});\n"
+      ]
+    },
+    "mtime": 1525716217116
+  },
+  "{\"filename\":\"/app/server.js\",\"env\":{},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.24.1": {
+    "metadata": {
+      "usedHelpers": [],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "airtable",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Airtable"
+              }
+            ]
+          },
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server.js",
+      "filenameRelative": "/app/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "import Airtable from 'airtable';\nimport express from 'express';\n\nconst app = express();\n\napp.use(express.static('public'));\n\napp.get('/', (request, response) => {\n  response.sendFile(`${__dirname}/views/index.html`);\n});\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedResponse = null;\nvar cachedResponseDate = null;\n\nvar airtableBase = new Airtable({\n  apiKey: process.env.AIRTABLE_API_KEY\n}).base(process.env.AIRTABLE_BASE_ID);\n\napp.get(\"/api/shoppinglist\", function (_, response) {\n  if (cachedResponse && new Date() - cachedResponseDate < cacheTimeoutMs) {\n    response.send(cachedResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view'\n    }).firstPage(function (error, records) {\n      if (error) {\n        response.send({ error: JSON.stringify(error) });\n      } else {\n        cachedResponse = {\n          items: records.map(record => {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          })\n        };\n        cachedResponseDate = new Date();\n        response.send(cachedResponse);\n      }\n    });\n  }\n});\n\nconst listener = app.listen(process.env.PORT, () => {\n  console.log(`Your app is listening on port ${listener.address().port}. 🚢`);\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJBaXJ0YWJsZSIsImV4cHJlc3MiLCJhcHAiLCJ1c2UiLCJzdGF0aWMiLCJnZXQiLCJyZXF1ZXN0IiwicmVzcG9uc2UiLCJzZW5kRmlsZSIsIl9fZGlybmFtZSIsImNhY2hlVGltZW91dE1zIiwiY2FjaGVkUmVzcG9uc2UiLCJjYWNoZWRSZXNwb25zZURhdGUiLCJhaXJ0YWJsZUJhc2UiLCJhcGlLZXkiLCJwcm9jZXNzIiwiZW52IiwiQUlSVEFCTEVfQVBJX0tFWSIsImJhc2UiLCJBSVJUQUJMRV9CQVNFX0lEIiwiXyIsIkRhdGUiLCJzZW5kIiwic2VsZWN0IiwibWF4UmVjb3JkcyIsInZpZXciLCJmaXJzdFBhZ2UiLCJlcnJvciIsInJlY29yZHMiLCJKU09OIiwic3RyaW5naWZ5IiwiaXRlbXMiLCJtYXAiLCJyZWNvcmQiLCJpZCIsIm5hbWUiLCJuZWVkZWQiLCJub3RlcyIsImxpc3RlbmVyIiwibGlzdGVuIiwiUE9SVCIsImNvbnNvbGUiLCJsb2ciLCJhZGRyZXNzIiwicG9ydCJdLCJtYXBwaW5ncyI6IkFBQUEsT0FBT0EsUUFBUCxNQUFxQixVQUFyQjtBQUNBLE9BQU9DLE9BQVAsTUFBb0IsU0FBcEI7O0FBRUEsTUFBTUMsTUFBTUQsU0FBWjs7QUFFQUMsSUFBSUMsR0FBSixDQUFRRixRQUFRRyxNQUFSLENBQWUsUUFBZixDQUFSOztBQUVBRixJQUFJRyxHQUFKLENBQVEsR0FBUixFQUFhLENBQUNDLE9BQUQsRUFBVUMsUUFBVixLQUF1QjtBQUNsQ0EsV0FBU0MsUUFBVCxDQUFtQixHQUFFQyxTQUFVLG1CQUEvQjtBQUNELENBRkQ7O0FBSUE7QUFDQTtBQUNBLElBQUlDLGlCQUFpQixJQUFJLElBQXpCLEMsQ0FBK0I7QUFDL0IsSUFBSUMsaUJBQWlCLElBQXJCO0FBQ0EsSUFBSUMscUJBQXFCLElBQXpCOztBQUVBLElBQUlDLGVBQWUsSUFBSWIsUUFBSixDQUFhO0FBQzlCYyxVQUFRQyxRQUFRQyxHQUFSLENBQVlDO0FBRFUsQ0FBYixFQUVoQkMsSUFGZ0IsQ0FFWEgsUUFBUUMsR0FBUixDQUFZRyxnQkFGRCxDQUFuQjs7QUFJQWpCLElBQUlHLEdBQUosQ0FBUSxtQkFBUixFQUE2QixVQUFTZSxDQUFULEVBQVliLFFBQVosRUFBc0I7QUFDakQsTUFBSUksa0JBQWtCLElBQUlVLElBQUosS0FBYVQsa0JBQWIsR0FBa0NGLGNBQXhELEVBQXdFO0FBQ3RFSCxhQUFTZSxJQUFULENBQWNYLGNBQWQ7QUFDRCxHQUZELE1BRU87QUFDTEUsaUJBQWEsY0FBYixFQUE2QlUsTUFBN0IsQ0FBb0M7QUFDbENDLGtCQUFZLEdBRHNCO0FBRWxDQyxZQUFNO0FBRjRCLEtBQXBDLEVBR0dDLFNBSEgsQ0FHYSxVQUFTQyxLQUFULEVBQWdCQyxPQUFoQixFQUF5QjtBQUNwQyxVQUFJRCxLQUFKLEVBQVc7QUFDVHBCLGlCQUFTZSxJQUFULENBQWMsRUFBQ0ssT0FBT0UsS0FBS0MsU0FBTCxDQUFlSCxLQUFmLENBQVIsRUFBZDtBQUNELE9BRkQsTUFFTztBQUNMaEIseUJBQWlCO0FBQ2ZvQixpQkFBT0gsUUFBUUksR0FBUixDQUFZQyxVQUFVO0FBQzNCLG1CQUFPO0FBQ0xDLGtCQUFJRCxPQUFPQyxFQUROO0FBRUxDLG9CQUFNRixPQUFPNUIsR0FBUCxDQUFXLE1BQVgsQ0FGRDtBQUdMK0Isc0JBQVFILE9BQU81QixHQUFQLENBQVcsUUFBWCxDQUhIO0FBSUxnQyxxQkFBT0osT0FBTzVCLEdBQVAsQ0FBVyxPQUFYO0FBSkYsYUFBUDtBQU1ELFdBUE07QUFEUSxTQUFqQjtBQVVBTyw2QkFBcUIsSUFBSVMsSUFBSixFQUFyQjtBQUNBZCxpQkFBU2UsSUFBVCxDQUFjWCxjQUFkO0FBQ0Q7QUFDRixLQXBCRDtBQXFCRDtBQUNGLENBMUJEOztBQTRCQSxNQUFNMkIsV0FBV3BDLElBQUlxQyxNQUFKLENBQVd4QixRQUFRQyxHQUFSLENBQVl3QixJQUF2QixFQUE2QixNQUFNO0FBQ2xEQyxVQUFRQyxHQUFSLENBQWEsaUNBQWdDSixTQUFTSyxPQUFULEdBQW1CQyxJQUFLLE1BQXJFO0FBQ0QsQ0FGZ0IsQ0FBakIiLCJmaWxlIjoic2VydmVyLmpzIiwic291cmNlUm9vdCI6Ii9hcHAiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQWlydGFibGUgZnJvbSAnYWlydGFibGUnXG5pbXBvcnQgZXhwcmVzcyBmcm9tICdleHByZXNzJ1xuXG5jb25zdCBhcHAgPSBleHByZXNzKClcblxuYXBwLnVzZShleHByZXNzLnN0YXRpYygncHVibGljJykpO1xuXG5hcHAuZ2V0KCcvJywgKHJlcXVlc3QsIHJlc3BvbnNlKSA9PiB7XG4gIHJlc3BvbnNlLnNlbmRGaWxlKGAke19fZGlybmFtZX0vdmlld3MvaW5kZXguaHRtbGApO1xufSk7XG5cbi8vIENhY2hlIHRoZSByZWNvcmRzIGluIGNhc2Ugd2UgZ2V0IGEgbG90IG9mIHRyYWZmaWMuXG4vLyBPdGhlcndpc2UsIHdlJ2xsIGhpdCBBaXJ0YWJsZSdzIHJhdGUgbGltaXQuXG52YXIgY2FjaGVUaW1lb3V0TXMgPSA1ICogMTAwMDsgLy8gQ2FjaGUgZm9yIDUgc2Vjb25kcy5cbnZhciBjYWNoZWRSZXNwb25zZSA9IG51bGw7XG52YXIgY2FjaGVkUmVzcG9uc2VEYXRlID0gbnVsbDtcblxudmFyIGFpcnRhYmxlQmFzZSA9IG5ldyBBaXJ0YWJsZSh7XG4gIGFwaUtleTogcHJvY2Vzcy5lbnYuQUlSVEFCTEVfQVBJX0tFWSxcbn0pLmJhc2UocHJvY2Vzcy5lbnYuQUlSVEFCTEVfQkFTRV9JRClcblxuYXBwLmdldChcIi9hcGkvc2hvcHBpbmdsaXN0XCIsIGZ1bmN0aW9uKF8sIHJlc3BvbnNlKSB7XG4gIGlmIChjYWNoZWRSZXNwb25zZSAmJiBuZXcgRGF0ZSgpIC0gY2FjaGVkUmVzcG9uc2VEYXRlIDwgY2FjaGVUaW1lb3V0TXMpIHtcbiAgICByZXNwb25zZS5zZW5kKGNhY2hlZFJlc3BvbnNlKTtcbiAgfSBlbHNlIHtcbiAgICBhaXJ0YWJsZUJhc2UoJ3Nob3BwaW5nbGlzdCcpLnNlbGVjdCh7XG4gICAgICBtYXhSZWNvcmRzOiAxMDAsXG4gICAgICB2aWV3OiAnR3JpZCB2aWV3JyxcbiAgICB9KS5maXJzdFBhZ2UoZnVuY3Rpb24oZXJyb3IsIHJlY29yZHMpIHtcbiAgICAgIGlmIChlcnJvcikge1xuICAgICAgICByZXNwb25zZS5zZW5kKHtlcnJvcjogSlNPTi5zdHJpbmdpZnkoZXJyb3IpfSk7XG4gICAgICB9IGVsc2Uge1xuICAgICAgICBjYWNoZWRSZXNwb25zZSA9IHtcbiAgICAgICAgICBpdGVtczogcmVjb3Jkcy5tYXAocmVjb3JkID0+IHtcbiAgICAgICAgICAgIHJldHVybiB7XG4gICAgICAgICAgICAgIGlkOiByZWNvcmQuaWQsXG4gICAgICAgICAgICAgIG5hbWU6IHJlY29yZC5nZXQoJ25hbWUnKSxcbiAgICAgICAgICAgICAgbmVlZGVkOiByZWNvcmQuZ2V0KCduZWVkZWQnKSxcbiAgICAgICAgICAgICAgbm90ZXM6IHJlY29yZC5nZXQoJ25vdGVzJylcbiAgICAgICAgICAgIH07XG4gICAgICAgICAgfSksXG4gICAgICAgIH1cbiAgICAgICAgY2FjaGVkUmVzcG9uc2VEYXRlID0gbmV3IERhdGUoKVxuICAgICAgICByZXNwb25zZS5zZW5kKGNhY2hlZFJlc3BvbnNlKVxuICAgICAgfVxuICAgIH0pO1xuICB9XG59KVxuXG5jb25zdCBsaXN0ZW5lciA9IGFwcC5saXN0ZW4ocHJvY2Vzcy5lbnYuUE9SVCwgKCkgPT4ge1xuICBjb25zb2xlLmxvZyhgWW91ciBhcHAgaXMgbGlzdGVuaW5nIG9uIHBvcnQgJHtsaXN0ZW5lci5hZGRyZXNzKCkucG9ydH0uIPCfmqJgKTtcbn0pO1xuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "Airtable",
+        "express",
+        "app",
+        "use",
+        "static",
+        "get",
+        "request",
+        "response",
+        "sendFile",
+        "__dirname",
+        "cacheTimeoutMs",
+        "cachedResponse",
+        "cachedResponseDate",
+        "airtableBase",
+        "apiKey",
+        "process",
+        "env",
+        "AIRTABLE_API_KEY",
+        "base",
+        "AIRTABLE_BASE_ID",
+        "_",
+        "Date",
+        "send",
+        "select",
+        "maxRecords",
+        "view",
+        "firstPage",
+        "error",
+        "records",
+        "JSON",
+        "stringify",
+        "items",
+        "map",
+        "record",
+        "id",
+        "name",
+        "needed",
+        "notes",
+        "listener",
+        "listen",
+        "PORT",
+        "console",
+        "log",
+        "address",
+        "port"
+      ],
+      "mappings": "AAAA,OAAOA,QAAP,MAAqB,UAArB;AACA,OAAOC,OAAP,MAAoB,SAApB;;AAEA,MAAMC,MAAMD,SAAZ;;AAEAC,IAAIC,GAAJ,CAAQF,QAAQG,MAAR,CAAe,QAAf,CAAR;;AAEAF,IAAIG,GAAJ,CAAQ,GAAR,EAAa,CAACC,OAAD,EAAUC,QAAV,KAAuB;AAClCA,WAASC,QAAT,CAAmB,GAAEC,SAAU,mBAA/B;AACD,CAFD;;AAIA;AACA;AACA,IAAIC,iBAAiB,IAAI,IAAzB,C,CAA+B;AAC/B,IAAIC,iBAAiB,IAArB;AACA,IAAIC,qBAAqB,IAAzB;;AAEA,IAAIC,eAAe,IAAIb,QAAJ,CAAa;AAC9Bc,UAAQC,QAAQC,GAAR,CAAYC;AADU,CAAb,EAEhBC,IAFgB,CAEXH,QAAQC,GAAR,CAAYG,gBAFD,CAAnB;;AAIAjB,IAAIG,GAAJ,CAAQ,mBAAR,EAA6B,UAASe,CAAT,EAAYb,QAAZ,EAAsB;AACjD,MAAII,kBAAkB,IAAIU,IAAJ,KAAaT,kBAAb,GAAkCF,cAAxD,EAAwE;AACtEH,aAASe,IAAT,CAAcX,cAAd;AACD,GAFD,MAEO;AACLE,iBAAa,cAAb,EAA6BU,MAA7B,CAAoC;AAClCC,kBAAY,GADsB;AAElCC,YAAM;AAF4B,KAApC,EAGGC,SAHH,CAGa,UAASC,KAAT,EAAgBC,OAAhB,EAAyB;AACpC,UAAID,KAAJ,EAAW;AACTpB,iBAASe,IAAT,CAAc,EAACK,OAAOE,KAAKC,SAAL,CAAeH,KAAf,CAAR,EAAd;AACD,OAFD,MAEO;AACLhB,yBAAiB;AACfoB,iBAAOH,QAAQI,GAAR,CAAYC,UAAU;AAC3B,mBAAO;AACLC,kBAAID,OAAOC,EADN;AAELC,oBAAMF,OAAO5B,GAAP,CAAW,MAAX,CAFD;AAGL+B,sBAAQH,OAAO5B,GAAP,CAAW,QAAX,CAHH;AAILgC,qBAAOJ,OAAO5B,GAAP,CAAW,OAAX;AAJF,aAAP;AAMD,WAPM;AADQ,SAAjB;AAUAO,6BAAqB,IAAIS,IAAJ,EAArB;AACAd,iBAASe,IAAT,CAAcX,cAAd;AACD;AACF,KApBD;AAqBD;AACF,CA1BD;;AA4BA,MAAM2B,WAAWpC,IAAIqC,MAAJ,CAAWxB,QAAQC,GAAR,CAAYwB,IAAvB,EAA6B,MAAM;AAClDC,UAAQC,GAAR,CAAa,iCAAgCJ,SAASK,OAAT,GAAmBC,IAAK,MAArE;AACD,CAFgB,CAAjB",
+      "file": "server.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import Airtable from 'airtable'\nimport express from 'express'\n\nconst app = express()\n\napp.use(express.static('public'));\n\napp.get('/', (request, response) => {\n  response.sendFile(`${__dirname}/views/index.html`);\n});\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedResponse = null;\nvar cachedResponseDate = null;\n\nvar airtableBase = new Airtable({\n  apiKey: process.env.AIRTABLE_API_KEY,\n}).base(process.env.AIRTABLE_BASE_ID)\n\napp.get(\"/api/shoppinglist\", function(_, response) {\n  if (cachedResponse && new Date() - cachedResponseDate < cacheTimeoutMs) {\n    response.send(cachedResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view',\n    }).firstPage(function(error, records) {\n      if (error) {\n        response.send({error: JSON.stringify(error)});\n      } else {\n        cachedResponse = {\n          items: records.map(record => {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          }),\n        }\n        cachedResponseDate = new Date()\n        response.send(cachedResponse)\n      }\n    });\n  }\n})\n\nconst listener = app.listen(process.env.PORT, () => {\n  console.log(`Your app is listening on port ${listener.address().port}. 🚢`);\n});\n"
+      ]
+    },
+    "mtime": 1526093630274
+  },
+  "{\"filename\":\"/app/server.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.24.1": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "airtable",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Airtable"
+              }
+            ]
+          },
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server.js",
+      "filenameRelative": "/app/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _airtable = require('airtable');\n\nvar _airtable2 = _interopRequireDefault(_airtable);\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.use(_bodyParser2.default.json());\napp.use(_express2.default.static('public'));\n\napp.get('/', function (request, response) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\napp.get(\"/shoppinglist\", function (request, response, next) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\napp.get(\"/chalkboard\", function (request, response, next) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedResponse = null;\nvar cachedResponseDate = null;\n\nvar airtableBase = new _airtable2.default({\n  apiKey: process.env.AIRTABLE_API_KEY\n}).base(process.env.AIRTABLE_BASE_ID);\n\napp.get(\"/api/shoppinglist\", function (_, response) {\n  if (cachedResponse && new Date() - cachedResponseDate < cacheTimeoutMs) {\n    response.send(cachedResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view'\n    }).firstPage(function (error, records) {\n      if (error) {\n        response.send({ error: JSON.stringify(error) });\n      } else {\n        cachedResponse = {\n          items: records.map(function (record) {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          })\n        };\n        // disable cache for now\n        // cachedResponseDate = new Date()\n        response.send(cachedResponse);\n      }\n    });\n  }\n});\n\napp.post(\"/api/shoppinglist/items\", function (request, response, next) {\n  airtableBase('shoppinglist').create({\n    name: request.body.name,\n    needed: true\n  }, function (err, record) {\n    if (err) {\n      console.error(err);return;\n    }\n    response.send({ ok: true });\n  });\n});\n\napp.patch(\"/api/shoppinglist/items/:id\", function (request, response, next) {\n  airtableBase('shoppinglist').update(request.params.id, {\n    needed: request.body.needed\n  }, function (err, record) {\n    if (err) {\n      console.error(err);return;\n    }\n    response.send({ ok: true });\n  });\n});\n\nvar listener = app.listen(process.env.PORT, function () {\n  console.log('Your app is listening on port ' + listener.address().port + '. \\uD83D\\uDEA2');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJhcHAiLCJ1c2UiLCJqc29uIiwic3RhdGljIiwiZ2V0IiwicmVxdWVzdCIsInJlc3BvbnNlIiwic2VuZEZpbGUiLCJfX2Rpcm5hbWUiLCJuZXh0IiwiY2FjaGVUaW1lb3V0TXMiLCJjYWNoZWRSZXNwb25zZSIsImNhY2hlZFJlc3BvbnNlRGF0ZSIsImFpcnRhYmxlQmFzZSIsImFwaUtleSIsInByb2Nlc3MiLCJlbnYiLCJBSVJUQUJMRV9BUElfS0VZIiwiYmFzZSIsIkFJUlRBQkxFX0JBU0VfSUQiLCJfIiwiRGF0ZSIsInNlbmQiLCJzZWxlY3QiLCJtYXhSZWNvcmRzIiwidmlldyIsImZpcnN0UGFnZSIsImVycm9yIiwicmVjb3JkcyIsIkpTT04iLCJzdHJpbmdpZnkiLCJpdGVtcyIsIm1hcCIsImlkIiwicmVjb3JkIiwibmFtZSIsIm5lZWRlZCIsIm5vdGVzIiwicG9zdCIsImNyZWF0ZSIsImJvZHkiLCJlcnIiLCJjb25zb2xlIiwib2siLCJwYXRjaCIsInVwZGF0ZSIsInBhcmFtcyIsImxpc3RlbmVyIiwibGlzdGVuIiwiUE9SVCIsImxvZyIsImFkZHJlc3MiLCJwb3J0Il0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7Ozs7O0FBRUEsSUFBTUEsTUFBTSx3QkFBWjs7QUFFQUEsSUFBSUMsR0FBSixDQUFRLHFCQUFXQyxJQUFYLEVBQVI7QUFDQUYsSUFBSUMsR0FBSixDQUFRLGtCQUFRRSxNQUFSLENBQWUsUUFBZixDQUFSOztBQUVBSCxJQUFJSSxHQUFKLENBQVEsR0FBUixFQUFhLFVBQUNDLE9BQUQsRUFBVUMsUUFBVixFQUF1QjtBQUNsQ0EsV0FBU0MsUUFBVCxDQUFxQkMsU0FBckI7QUFDRCxDQUZEOztBQUlBUixJQUFJSSxHQUFKLENBQVEsZUFBUixFQUF5QixVQUFTQyxPQUFULEVBQWtCQyxRQUFsQixFQUE0QkcsSUFBNUIsRUFBa0M7QUFDekRILFdBQVNDLFFBQVQsQ0FBcUJDLFNBQXJC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dkIsRUFBNkIsWUFBTTtBQUNsRFAsVUFBUVEsR0FBUixvQ0FBNkNILFNBQVNJLE9BQVQsR0FBbUJDLElBQWhFO0FBQ0QsQ0FGZ0IsQ0FBakIiLCJmaWxlIjoic2VydmVyLmpzIiwic291cmNlUm9vdCI6Ii9hcHAiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQWlydGFibGUgZnJvbSAnYWlydGFibGUnXG5pbXBvcnQgZXhwcmVzcyBmcm9tICdleHByZXNzJ1xuaW1wb3J0IGJvZHlQYXJzZXIgZnJvbSAnYm9keS1wYXJzZXInXG5cbmNvbnN0IGFwcCA9IGV4cHJlc3MoKVxuXG5hcHAudXNlKGJvZHlQYXJzZXIuanNvbigpKVxuYXBwLnVzZShleHByZXNzLnN0YXRpYygncHVibGljJykpXG5cbmFwcC5nZXQoJy8nLCAocmVxdWVzdCwgcmVzcG9uc2UpID0+IHtcbiAgcmVzcG9uc2Uuc2VuZEZpbGUoYCR7X19kaXJuYW1lfS92aWV3cy9pbmRleC5odG1sYClcbn0pXG5cbmFwcC5nZXQoXCIvc2hvcHBpbmdsaXN0XCIsIGZ1bmN0aW9uKHJlcXVlc3QsIHJlc3BvbnNlLCBuZXh0KSB7XG4gIHJlc3BvbnNlLnNlbmRGaWxlKGAke19fZGlybmFtZX0vdmlld3MvaW5kZXguaHRtbGApXG59KVxuXG5hcHAuZ2V0KFwiL2NoYWxrYm9hcmRcIiwgZnVuY3Rpb24ocmVxdWVzdCwgcmVzcG9uc2UsIG5leHQpIHtcbiAgcmVzcG9uc2Uuc2VuZEZpbGUoYCR7X19kaXJuYW1lfS92aWV3cy9pbmRleC5odG1sYClcbn0pXG5cbi8vIENhY2hlIHRoZSByZWNvcmRzIGluIGNhc2Ugd2UgZ2V0IGEgbG90IG9mIHRyYWZmaWMuXG4vLyBPdGhlcndpc2UsIHdlJ2xsIGhpdCBBaXJ0YWJsZSdzIHJhdGUgbGltaXQuXG52YXIgY2FjaGVUaW1lb3V0TXMgPSA1ICogMTAwMDsgLy8gQ2FjaGUgZm9yIDUgc2Vjb25kcy5cbnZhciBjYWNoZWRSZXNwb25zZSA9IG51bGw7XG52YXIgY2FjaGVkUmVzcG9uc2VEYXRlID0gbnVsbDtcblxudmFyIGFpcnRhYmxlQmFzZSA9IG5ldyBBaXJ0YWJsZSh7XG4gIGFwaUtleTogcHJvY2Vzcy5lbnYuQUlSVEFCTEVfQVBJX0tFWSxcbn0pLmJhc2UocHJvY2Vzcy5lbnYuQUlSVEFCTEVfQkFTRV9JRClcblxuYXBwLmdldChcIi9hcGkvc2hvcHBpbmdsaXN0XCIsIGZ1bmN0aW9uKF8sIHJlc3BvbnNlKSB7XG4gIGlmIChjYWNoZWRSZXNwb25zZSAmJiBuZXcgRGF0ZSgpIC0gY2FjaGVkUmVzcG9uc2VEYXRlIDwgY2FjaGVUaW1lb3V0TXMpIHtcbiAgICByZXNwb25zZS5zZW5kKGNhY2hlZFJlc3BvbnNlKTtcbiAgfSBlbHNlIHtcbiAgICBhaXJ0YWJsZUJhc2UoJ3Nob3BwaW5nbGlzdCcpLnNlbGVjdCh7XG4gICAgICBtYXhSZWNvcmRzOiAxMDAsXG4gICAgICB2aWV3OiAnR3JpZCB2aWV3JyxcbiAgICB9KS5maXJzdFBhZ2UoZnVuY3Rpb24oZXJyb3IsIHJlY29yZHMpIHtcbiAgICAgIGlmIChlcnJvcikge1xuICAgICAgICByZXNwb25zZS5zZW5kKHtlcnJvcjogSlNPTi5zdHJpbmdpZnkoZXJyb3IpfSk7XG4gICAgICB9IGVsc2Uge1xuICAgICAgICBjYWNoZWRSZXNwb25zZSA9IHtcbiAgICAgICAgICBpdGVtczogcmVjb3Jkcy5tYXAocmVjb3JkID0+IHtcbiAgICAgICAgICAgIHJldHVybiB7XG4gICAgICAgICAgICAgIGlkOiByZWNvcmQuaWQsXG4gICAgICAgICAgICAgIG5hbWU6IHJlY29yZC5nZXQoJ25hbWUnKSxcbiAgICAgICAgICAgICAgbmVlZGVkOiByZWNvcmQuZ2V0KCduZWVkZWQnKSxcbiAgICAgICAgICAgICAgbm90ZXM6IHJlY29yZC5nZXQoJ25vdGVzJylcbiAgICAgICAgICAgIH07XG4gICAgICAgICAgfSksXG4gICAgICAgIH1cbiAgICAgICAgLy8gZGlzYWJsZSBjYWNoZSBmb3Igbm93XG4gICAgICAgIC8vIGNhY2hlZFJlc3BvbnNlRGF0ZSA9IG5ldyBEYXRlKClcbiAgICAgICAgcmVzcG9uc2Uuc2VuZChjYWNoZWRSZXNwb25zZSlcbiAgICAgIH1cbiAgICB9KVxuICB9XG59KVxuXG5hcHAucG9zdChcIi9hcGkvc2hvcHBpbmdsaXN0L2l0ZW1zXCIsIGZ1bmN0aW9uKHJlcXVlc3QsIHJlc3BvbnNlLCBuZXh0KSB7XG4gIGFpcnRhYmxlQmFzZSgnc2hvcHBpbmdsaXN0JykuY3JlYXRlKHtcbiAgICAgIG5hbWU6IHJlcXVlc3QuYm9keS5uYW1lLFxuICAgICAgbmVlZGVkOiB0cnVlXG4gICAgfSwgKGVyciwgcmVjb3JkKSA9PiB7XG4gICAgICBpZiAoZXJyKSB7IGNvbnNvbGUuZXJyb3IoZXJyKTsgcmV0dXJuOyB9XG4gICAgICByZXNwb25zZS5zZW5kKHtvazogdHJ1ZX0pXG4gICAgfSlcbn0pXG5cbmFwcC5wYXRjaChcIi9hcGkvc2hvcHBpbmdsaXN0L2l0ZW1zLzppZFwiLCBmdW5jdGlvbihyZXF1ZXN0LCByZXNwb25zZSwgbmV4dCkge1xuICBhaXJ0YWJsZUJhc2UoJ3Nob3BwaW5nbGlzdCcpLnVwZGF0ZShyZXF1ZXN0LnBhcmFtcy5pZCwge1xuICAgICAgbmVlZGVkOiByZXF1ZXN0LmJvZHkubmVlZGVkXG4gICAgfSwgKGVyciwgcmVjb3JkKSA9PiB7XG4gICAgICBpZiAoZXJyKSB7IGNvbnNvbGUuZXJyb3IoZXJyKTsgcmV0dXJuOyB9XG4gICAgICByZXNwb25zZS5zZW5kKHtvazogdHJ1ZX0pXG4gICAgfSlcbn0pXG5cbmNvbnN0IGxpc3RlbmVyID0gYXBwLmxpc3Rlbihwcm9jZXNzLmVudi5QT1JULCAoKSA9PiB7XG4gIGNvbnNvbGUubG9nKGBZb3VyIGFwcCBpcyBsaXN0ZW5pbmcgb24gcG9ydCAke2xpc3RlbmVyLmFkZHJlc3MoKS5wb3J0fS4g8J+aomApXG59KVxuIl19",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "app",
+        "use",
+        "json",
+        "static",
+        "get",
+        "request",
+        "response",
+        "sendFile",
+        "__dirname",
+        "next",
+        "cacheTimeoutMs",
+        "cachedResponse",
+        "cachedResponseDate",
+        "airtableBase",
+        "apiKey",
+        "process",
+        "env",
+        "AIRTABLE_API_KEY",
+        "base",
+        "AIRTABLE_BASE_ID",
+        "_",
+        "Date",
+        "send",
+        "select",
+        "maxRecords",
+        "view",
+        "firstPage",
+        "error",
+        "records",
+        "JSON",
+        "stringify",
+        "items",
+        "map",
+        "id",
+        "record",
+        "name",
+        "needed",
+        "notes",
+        "post",
+        "create",
+        "body",
+        "err",
+        "console",
+        "ok",
+        "patch",
+        "update",
+        "params",
+        "listener",
+        "listen",
+        "PORT",
+        "log",
+        "address",
+        "port"
+      ],
+      "mappings": "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",
+      "file": "server.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import Airtable from 'airtable'\nimport express from 'express'\nimport bodyParser from 'body-parser'\n\nconst app = express()\n\napp.use(bodyParser.json())\napp.use(express.static('public'))\n\napp.get('/', (request, response) => {\n  response.sendFile(`${__dirname}/views/index.html`)\n})\n\napp.get(\"/shoppinglist\", function(request, response, next) {\n  response.sendFile(`${__dirname}/views/index.html`)\n})\n\napp.get(\"/chalkboard\", function(request, response, next) {\n  response.sendFile(`${__dirname}/views/index.html`)\n})\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedResponse = null;\nvar cachedResponseDate = null;\n\nvar airtableBase = new Airtable({\n  apiKey: process.env.AIRTABLE_API_KEY,\n}).base(process.env.AIRTABLE_BASE_ID)\n\napp.get(\"/api/shoppinglist\", function(_, response) {\n  if (cachedResponse && new Date() - cachedResponseDate < cacheTimeoutMs) {\n    response.send(cachedResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view',\n    }).firstPage(function(error, records) {\n      if (error) {\n        response.send({error: JSON.stringify(error)});\n      } else {\n        cachedResponse = {\n          items: records.map(record => {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          }),\n        }\n        // disable cache for now\n        // cachedResponseDate = new Date()\n        response.send(cachedResponse)\n      }\n    })\n  }\n})\n\napp.post(\"/api/shoppinglist/items\", function(request, response, next) {\n  airtableBase('shoppinglist').create({\n      name: request.body.name,\n      needed: true\n    }, (err, record) => {\n      if (err) { console.error(err); return; }\n      response.send({ok: true})\n    })\n})\n\napp.patch(\"/api/shoppinglist/items/:id\", function(request, response, next) {\n  airtableBase('shoppinglist').update(request.params.id, {\n      needed: request.body.needed\n    }, (err, record) => {\n      if (err) { console.error(err); return; }\n      response.send({ok: true})\n    })\n})\n\nconst listener = app.listen(process.env.PORT, () => {\n  console.log(`Your app is listening on port ${listener.address().port}. 🚢`)\n})\n"
+      ]
+    },
+    "mtime": 1526206323287
+  },
+  "{\"filename\":\"/app/server.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}],[[],{\"spec\":false,\"loose\":false}]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.3": {
+    "metadata": {
+      "usedHelpers": [
+        "interopRequireDefault"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [
+          {
+            "source": "airtable",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "Airtable"
+              }
+            ]
+          },
+          {
+            "source": "express",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "express"
+              }
+            ]
+          },
+          {
+            "source": "body-parser",
+            "imported": [
+              "default"
+            ],
+            "specifiers": [
+              {
+                "kind": "named",
+                "imported": "default",
+                "local": "bodyParser"
+              }
+            ]
+          },
+          {
+            "source": "isomorphic-fetch",
+            "imported": [],
+            "specifiers": []
+          }
+        ],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/server.js",
+      "filenameRelative": "/app/server.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "spec": false,
+            "loose": false
+          }
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "server.js",
+      "sourceFileName": "server.js",
+      "sourceRoot": "/app",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "server"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _airtable = require('airtable');\n\nvar _airtable2 = _interopRequireDefault(_airtable);\n\nvar _express = require('express');\n\nvar _express2 = _interopRequireDefault(_express);\n\nvar _bodyParser = require('body-parser');\n\nvar _bodyParser2 = _interopRequireDefault(_bodyParser);\n\nrequire('isomorphic-fetch');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar app = (0, _express2.default)();\n\napp.use(_bodyParser2.default.json());\napp.use(_express2.default.static('public'));\n\napp.get('/manifest.json', function (request, response) {\n  response.sendFile(__dirname + '/public_files/manifest.json');\n});\n\napp.get('/', function (request, response) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\napp.get(\"/shoppinglist\", function (request, response, next) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\napp.get(\"/chalkboard\", function (request, response, next) {\n  response.sendFile(__dirname + '/views/index.html');\n});\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedAirtableResponse = null;\nvar cachedAirtableResponseDate = null;\nvar cachedWeatherResponse = null;\nvar cachedWeatherResponseDate = null;\n\nvar airtableBase = new _airtable2.default({\n  apiKey: process.env.AIRTABLE_API_KEY\n}).base(process.env.AIRTABLE_BASE_ID);\n\napp.get(\"/api/shoppinglist\", function (_, response) {\n  if (cachedAirtableResponse && new Date() - cachedAirtableResponseDate < cacheTimeoutMs) {\n    response.send(cachedAirtableResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view'\n    }).firstPage(function (error, records) {\n      if (error) {\n        response.send({ error: JSON.stringify(error) });\n      } else {\n        cachedAirtableResponse = {\n          items: records.map(function (record) {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          })\n          // disable cache for now\n          // cachedAirtableResponseDate = new Date()\n        };response.send(cachedAirtableResponse);\n      }\n    });\n  }\n});\n\napp.post(\"/api/shoppinglist/items\", function (request, response, next) {\n  airtableBase('shoppinglist').create({\n    name: request.body.name,\n    needed: true\n  }, function (err, record) {\n    if (err) {\n      console.error(err);return;\n    }\n    response.send({ ok: true });\n  });\n});\n\napp.patch(\"/api/shoppinglist/items/:id\", function (request, response, next) {\n  airtableBase('shoppinglist').update(request.params.id, {\n    needed: request.body.needed\n  }, function (err, record) {\n    if (err) {\n      console.error(err);return;\n    }\n    response.send({ ok: true });\n  });\n});\n\napp.get(\"/api/weather\", function (_, response) {\n  if (cachedWeatherResponse && new Date() - cachedWeatherResponseDate < cacheTimeoutMs) {\n    response.send(cachedWeatherResponse);\n  } else {\n    var url = 'https://api.darksky.net/forecast/' + process.env.DARKSKY_API_KEY + '/' + process.env.LATITUDE + ',' + process.env.LONGITUDE;\n    fetch(url).then(function (response) {\n      return response.json();\n    }).then(function (data) {\n      response.send(data.currently);\n    });\n  }\n});\n\nvar listener = app.listen(process.env.PORT, function () {\n  console.log('Your app is listening on port ' + listener.address().port + '. \\uD83D\\uDEA2');\n});\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNlcnZlci5qcyJdLCJuYW1lcyI6WyJhcHAiLCJ1c2UiLCJib2R5UGFyc2VyIiwianNvbiIsImV4cHJlc3MiLCJzdGF0aWMiLCJnZXQiLCJyZXF1ZXN0IiwicmVzcG9uc2UiLCJzZW5kRmlsZSIsIl9fZGlybmFtZSIsIm5leHQiLCJjYWNoZVRpbWVvdXRNcyIsImNhY2hlZEFpcnRhYmxlUmVzcG9uc2UiLCJjYWNoZWRBaXJ0YWJsZVJlc3BvbnNlRGF0ZSIsImNhY2hlZFdlYXRoZXJSZXNwb25zZSIsImNhY2hlZFdlYXRoZXJSZXNwb25zZURhdGUiLCJhaXJ0YWJsZUJhc2UiLCJBaXJ0YWJsZSIsImFwaUtleSIsInByb2Nlc3MiLCJlbnYiLCJBSVJUQUJMRV9BUElfS0VZIiwiYmFzZSIsIkFJUlRBQkxFX0JBU0VfSUQiLCJfIiwiRGF0ZSIsInNlbmQiLCJzZWxlY3QiLCJtYXhSZWNvcmRzIiwidmlldyIsImZpcnN0UGFnZSIsImVycm9yIiwicmVjb3JkcyIsIkpTT04iLCJzdHJpbmdpZnkiLCJpdGVtcyIsIm1hcCIsImlkIiwicmVjb3JkIiwibmFtZSIsIm5lZWRlZCIsIm5vdGVzIiwicG9zdCIsImNyZWF0ZSIsImJvZHkiLCJlcnIiLCJjb25zb2xlIiwib2siLCJwYXRjaCIsInVwZGF0ZSIsInBhcmFtcyIsInVybCIsIkRBUktTS1lfQVBJX0tFWSIsIkxBVElUVURFIiwiTE9OR0lUVURFIiwiZmV0Y2giLCJ0aGVuIiwiZGF0YSIsImN1cnJlbnRseSIsImxpc3RlbmVyIiwibGlzdGVuIiwiUE9SVCIsImxvZyIsImFkZHJlc3MiLCJwb3J0Il0sIm1hcHBpbmdzIjoiOztBQUFBOzs7O0FBQ0E7Ozs7QUFDQTs7OztBQUNBOzs7O0FBRUEsSUFBTUEsTUFBTSx3QkFBWjs7QUFFQUEsSUFBSUMsR0FBSixDQUFRQyxxQkFBV0MsSUFBWCxFQUFSO0FBQ0FILElBQUlDLEdBQUosQ0FBUUcsa0JBQVFDLE1BQVIsQ0FBZSxRQUFmLENBQVI7O0FBRUFMLElBQUlNLEdBQUos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Ijoic2VydmVyLmpzIiwic291cmNlUm9vdCI6Ii9hcHAiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQWlydGFibGUgZnJvbSAnYWlydGFibGUnXG5pbXBvcnQgZXhwcmVzcyBmcm9tICdleHByZXNzJ1xuaW1wb3J0IGJvZHlQYXJzZXIgZnJvbSAnYm9keS1wYXJzZXInXG5pbXBvcnQgJ2lzb21vcnBoaWMtZmV0Y2gnXG5cbmNvbnN0IGFwcCA9IGV4cHJlc3MoKVxuXG5hcHAudXNlKGJvZHlQYXJzZXIuanNvbigpKVxuYXBwLnVzZShleHByZXNzLnN0YXRpYygncHVibGljJykpXG5cbmFwcC5nZXQoJy9tYW5pZmVzdC5qc29uJywgKHJlcXVlc3QsIHJlc3BvbnNlKSA9PiB7XG4gIHJlc3BvbnNlLnNlbmRGaWxlKGAke19fZGlybmFtZX0vcHVibGljX2ZpbGVzL21hbmlmZXN0Lmpzb25gKVxufSlcblxuYXBwLmdldCgnLycsIChyZXF1ZXN0LCByZXNwb25zZSkgPT4ge1xuICByZXNwb25zZS5zZW5kRmlsZShgJHtfX2Rpcm5hbWV9L3ZpZXdzL2luZGV4Lmh0bWxgKVxufSlcblxuYXBwLmdldChcIi9zaG9wcGluZ2xpc3RcIiwgZnVuY3Rpb24ocmVxdWVzdCwgcmVzcG9uc2UsIG5leHQpIHtcbiAgcmVzcG9uc2Uuc2VuZEZpbGUoYCR7X19kaXJuYW1lfS92aWV3cy9pbmRleC5odG1sYClcbn0pXG5cbmFwcC5nZXQoXCIvY2hhbGtib2FyZFwiLCBmdW5jdGlvbihyZXF1ZXN0LCByZXNwb25zZSwgbmV4dCkge1xuICByZXNwb25zZS5zZW5kRmlsZShgJHtfX2Rpcm5hbWV9L3ZpZXdzL2luZGV4Lmh0bWxgKVxufSlcblxuLy8gQ2FjaGUgdGhlIHJlY29yZHMgaW4gY2FzZSB3ZSBnZXQgYSBsb3Qgb2YgdHJhZmZpYy5cbi8vIE90aGVyd2lzZSwgd2UnbGwgaGl0IEFpcnRhYmxlJ3MgcmF0ZSBsaW1pdC5cbnZhciBjYWNoZVRpbWVvdXRNcyA9IDUgKiAxMDAwOyAvLyBDYWNoZSBmb3IgNSBzZWNvbmRzLlxudmFyIGNhY2hlZEFpcnRhYmxlUmVzcG9uc2UgPSBudWxsO1xudmFyIGNhY2hlZEFpcnRhYmxlUmVzcG9uc2VEYXRlID0gbnVsbDtcbnZhciBjYWNoZWRXZWF0aGVyUmVzcG9uc2UgPSBudWxsO1xudmFyIGNhY2hlZFdlYXRoZXJSZXNwb25zZURhdGUgPSBudWxsO1xuXG52YXIgYWlydGFibGVCYXNlID0gbmV3IEFpcnRhYmxlKHtcbiAgYXBpS2V5OiBwcm9jZXNzLmVudi5BSVJUQUJMRV9BUElfS0VZLFxufSkuYmFzZShwcm9jZXNzLmVudi5BSVJUQUJMRV9CQVNFX0lEKVxuXG5hcHAuZ2V0KFwiL2FwaS9zaG9wcGluZ2xpc3RcIiwgZnVuY3Rpb24oXywgcmVzcG9uc2UpIHtcbiAgaWYgKGNhY2hlZEFpcnRhYmxlUmVzcG9uc2UgJiYgbmV3IERhdGUoKSAtIGNhY2hlZEFpcnRhYmxlUmVzcG9uc2VEYXRlIDwgY2FjaGVUaW1lb3V0TXMpIHtcbiAgICByZXNwb25zZS5zZW5kKGNhY2hlZEFpcnRhYmxlUmVzcG9uc2UpO1xuICB9IGVsc2Uge1xuICAgIGFpcnRhYmxlQmFzZSgnc2hvcHBpbmdsaXN0Jykuc2VsZWN0KHtcbiAgICAgIG1heFJlY29yZHM6IDEwMCxcbiAgICAgIHZpZXc6ICdHcmlkIHZpZXcnLFxuICAgIH0pLmZpcnN0UGFnZShmdW5jdGlvbihlcnJvciwgcmVjb3Jkcykge1xuICAgICAgaWYgKGVycm9yKSB7XG4gICAgICAgIHJlc3BvbnNlLnNlbmQoe2Vycm9yOiBKU09OLnN0cmluZ2lmeShlcnJvcil9KTtcbiAgICAgIH0gZWxzZSB7XG4gICAgICAgIGNhY2hlZEFpcnRhYmxlUmVzcG9uc2UgPSB7XG4gICAgICAgICAgaXRlbXM6IHJlY29yZHMubWFwKHJlY29yZCA9PiB7XG4gICAgICAgICAgICByZXR1cm4ge1xuICAgICAgICAgICAgICBpZDogcmVjb3JkLmlkLFxuICAgICAgICAgICAgICBuYW1lOiByZWNvcmQuZ2V0KCduYW1lJyksXG4gICAgICAgICAgICAgIG5lZWRlZDogcmVjb3JkLmdldCgnbmVlZGVkJyksXG4gICAgICAgICAgICAgIG5vdGVzOiByZWNvcmQuZ2V0KCdub3RlcycpXG4gICAgICAgICAgICB9O1xuICAgICAgICAgIH0pLFxuICAgICAgICB9XG4gICAgICAgIC8vIGRpc2FibGUgY2FjaGUgZm9yIG5vd1xuICAgICAgICAvLyBjYWNoZWRBaXJ0YWJsZVJlc3BvbnNlRGF0ZSA9IG5ldyBEYXRlKClcbiAgICAgICAgcmVzcG9uc2Uuc2VuZChjYWNoZWRBaXJ0YWJsZVJlc3BvbnNlKVxuICAgICAgfVxuICAgIH0pXG4gIH1cbn0pXG5cbmFwcC5wb3N0KFwiL2FwaS9zaG9wcGluZ2xpc3QvaXRlbXNcIiwgZnVuY3Rpb24ocmVxdWVzdCwgcmVzcG9uc2UsIG5leHQpIHtcbiAgYWlydGFibGVCYXNlKCdzaG9wcGluZ2xpc3QnKS5jcmVhdGUoe1xuICAgICAgbmFtZTogcmVxdWVzdC5ib2R5Lm5hbWUsXG4gICAgICBuZWVkZWQ6IHRydWVcbiAgICB9LCAoZXJyLCByZWNvcmQpID0+IHtcbiAgICAgIGlmIChlcnIpIHsgY29uc29sZS5lcnJvcihlcnIpOyByZXR1cm47IH1cbiAgICAgIHJlc3BvbnNlLnNlbmQoe29rOiB0cnVlfSlcbiAgICB9KVxufSlcblxuYXBwLnBhdGNoKFwiL2FwaS9zaG9wcGluZ2xpc3QvaXRlbXMvOmlkXCIsIGZ1bmN0aW9uKHJlcXVlc3QsIHJlc3BvbnNlLCBuZXh0KSB7XG4gIGFpcnRhYmxlQmFzZSgnc2hvcHBpbmdsaXN0JykudXBkYXRlKHJlcXVlc3QucGFyYW1zLmlkLCB7XG4gICAgICBuZWVkZWQ6IHJlcXVlc3QuYm9keS5uZWVkZWRcbiAgICB9LCAoZXJyLCByZWNvcmQpID0+IHtcbiAgICAgIGlmIChlcnIpIHsgY29uc29sZS5lcnJvcihlcnIpOyByZXR1cm47IH1cbiAgICAgIHJlc3BvbnNlLnNlbmQoe29rOiB0cnVlfSlcbiAgICB9KVxufSlcblxuYXBwLmdldChcIi9hcGkvd2VhdGhlclwiLCBmdW5jdGlvbihfLCByZXNwb25zZSkge1xuICBpZiAoY2FjaGVkV2VhdGhlclJlc3BvbnNlICYmIG5ldyBEYXRlKCkgLSBjYWNoZWRXZWF0aGVyUmVzcG9uc2VEYXRlIDwgY2FjaGVUaW1lb3V0TXMpIHtcbiAgICByZXNwb25zZS5zZW5kKGNhY2hlZFdlYXRoZXJSZXNwb25zZSlcbiAgfSBlbHNlIHtcbiAgICBsZXQgdXJsID0gYGh0dHBzOi8vYXBpLmRhcmtza3kubmV0L2ZvcmVjYXN0LyR7cHJvY2Vzcy5lbnYuREFSS1NLWV9BUElfS0VZfS8ke3Byb2Nlc3MuZW52LkxBVElUVURFfSwke3Byb2Nlc3MuZW52LkxPTkdJVFVERX1gXG4gICAgZmV0Y2godXJsKS50aGVuKHJlc3BvbnNlID0+IHJlc3BvbnNlLmpzb24oKSkudGhlbigoZGF0YSkgPT4ge1xuICAgICAgcmVzcG9uc2Uuc2VuZChkYXRhLmN1cnJlbnRseSlcbiAgICB9KSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG4gIH1cbn0pICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXG5jb25zdCBsaXN0ZW5lciA9IGFwcC5saXN0ZW4ocHJvY2Vzcy5lbnYuUE9SVCwgKCkgPT4ge1xuICBjb25zb2xlLmxvZyhgWW91ciBhcHAgaXMgbGlzdGVuaW5nIG9uIHBvcnQgJHtsaXN0ZW5lci5hZGRyZXNzKCkucG9ydH0uIPCfmqJgKVxufSlcbiJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "server.js"
+      ],
+      "names": [
+        "app",
+        "use",
+        "bodyParser",
+        "json",
+        "express",
+        "static",
+        "get",
+        "request",
+        "response",
+        "sendFile",
+        "__dirname",
+        "next",
+        "cacheTimeoutMs",
+        "cachedAirtableResponse",
+        "cachedAirtableResponseDate",
+        "cachedWeatherResponse",
+        "cachedWeatherResponseDate",
+        "airtableBase",
+        "Airtable",
+        "apiKey",
+        "process",
+        "env",
+        "AIRTABLE_API_KEY",
+        "base",
+        "AIRTABLE_BASE_ID",
+        "_",
+        "Date",
+        "send",
+        "select",
+        "maxRecords",
+        "view",
+        "firstPage",
+        "error",
+        "records",
+        "JSON",
+        "stringify",
+        "items",
+        "map",
+        "id",
+        "record",
+        "name",
+        "needed",
+        "notes",
+        "post",
+        "create",
+        "body",
+        "err",
+        "console",
+        "ok",
+        "patch",
+        "update",
+        "params",
+        "url",
+        "DARKSKY_API_KEY",
+        "LATITUDE",
+        "LONGITUDE",
+        "fetch",
+        "then",
+        "data",
+        "currently",
+        "listener",
+        "listen",
+        "PORT",
+        "log",
+        "address",
+        "port"
+      ],
+      "mappings": "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",
+      "file": "server.js",
+      "sourceRoot": "/app",
+      "sourcesContent": [
+        "import Airtable from 'airtable'\nimport express from 'express'\nimport bodyParser from 'body-parser'\nimport 'isomorphic-fetch'\n\nconst app = express()\n\napp.use(bodyParser.json())\napp.use(express.static('public'))\n\napp.get('/manifest.json', (request, response) => {\n  response.sendFile(`${__dirname}/public_files/manifest.json`)\n})\n\napp.get('/', (request, response) => {\n  response.sendFile(`${__dirname}/views/index.html`)\n})\n\napp.get(\"/shoppinglist\", function(request, response, next) {\n  response.sendFile(`${__dirname}/views/index.html`)\n})\n\napp.get(\"/chalkboard\", function(request, response, next) {\n  response.sendFile(`${__dirname}/views/index.html`)\n})\n\n// Cache the records in case we get a lot of traffic.\n// Otherwise, we'll hit Airtable's rate limit.\nvar cacheTimeoutMs = 5 * 1000; // Cache for 5 seconds.\nvar cachedAirtableResponse = null;\nvar cachedAirtableResponseDate = null;\nvar cachedWeatherResponse = null;\nvar cachedWeatherResponseDate = null;\n\nvar airtableBase = new Airtable({\n  apiKey: process.env.AIRTABLE_API_KEY,\n}).base(process.env.AIRTABLE_BASE_ID)\n\napp.get(\"/api/shoppinglist\", function(_, response) {\n  if (cachedAirtableResponse && new Date() - cachedAirtableResponseDate < cacheTimeoutMs) {\n    response.send(cachedAirtableResponse);\n  } else {\n    airtableBase('shoppinglist').select({\n      maxRecords: 100,\n      view: 'Grid view',\n    }).firstPage(function(error, records) {\n      if (error) {\n        response.send({error: JSON.stringify(error)});\n      } else {\n        cachedAirtableResponse = {\n          items: records.map(record => {\n            return {\n              id: record.id,\n              name: record.get('name'),\n              needed: record.get('needed'),\n              notes: record.get('notes')\n            };\n          }),\n        }\n        // disable cache for now\n        // cachedAirtableResponseDate = new Date()\n        response.send(cachedAirtableResponse)\n      }\n    })\n  }\n})\n\napp.post(\"/api/shoppinglist/items\", function(request, response, next) {\n  airtableBase('shoppinglist').create({\n      name: request.body.name,\n      needed: true\n    }, (err, record) => {\n      if (err) { console.error(err); return; }\n      response.send({ok: true})\n    })\n})\n\napp.patch(\"/api/shoppinglist/items/:id\", function(request, response, next) {\n  airtableBase('shoppinglist').update(request.params.id, {\n      needed: request.body.needed\n    }, (err, record) => {\n      if (err) { console.error(err); return; }\n      response.send({ok: true})\n    })\n})\n\napp.get(\"/api/weather\", function(_, response) {\n  if (cachedWeatherResponse && new Date() - cachedWeatherResponseDate < cacheTimeoutMs) {\n    response.send(cachedWeatherResponse)\n  } else {\n    let url = `https://api.darksky.net/forecast/${process.env.DARKSKY_API_KEY}/${process.env.LATITUDE},${process.env.LONGITUDE}`\n    fetch(url).then(response => response.json()).then((data) => {\n      response.send(data.currently)\n    })                                   \n  }\n})                                                    \n                                                      \nconst listener = app.listen(process.env.PORT, () => {\n  console.log(`Your app is listening on port ${listener.address().port}. 🚢`)\n})\n"
+      ]
+    },
+    "mtime": 1527489306454
+  }
+}
