@@ -23,10 +23,6 @@ export default class ItemList extends React.Component {
     this._toggleItem(item)
   }
   
-  _onNewItemInputKeyPress = (event) => {
-    this.setState({newItemText: 'asdf'})
-  }
-  
   _addItem = () => {
     let newItem = document.getElementById('newItem')
     return fetch('/api/shoppinglist/items/', {
@@ -57,7 +53,9 @@ export default class ItemList extends React.Component {
   
   _sortItemsAlphabetically = (items) => {
     return items.sort(function (a, b) {
-      return a.name.toLowerCase() > b.name.toLowerCase()
+      if (a.name && b.name) {
+        return a.name.toLowerCase() > b.name.toLowerCase()
+      }
     })
   }
   
@@ -79,7 +77,7 @@ export default class ItemList extends React.Component {
         <div className={'activity-title'}>Shopping List</div>
         <div className={'shoppinglist-item input-container'}>
           <input type="checkbox" checked={false} />
-          <input type="text" id="newItem" onKeyPress={this._onNewItemInputKeyPress} placeholder='New item...' />
+          <input type="text" id="newItem" placeholder='New item...' />
           <button onClick={this._addItem}>Add</button>
         </div>
         {this.state.itemsNeeded.map((item, i) => 

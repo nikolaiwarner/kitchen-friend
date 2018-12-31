@@ -47,13 +47,25 @@ app.get("/api/shoppinglist", function(_, response) {
       if (error) {
         response.send({error: JSON.stringify(error)});
       } else {
+        
+//         airtableBase('shoppinglist').select({
+//           maxRecords: 100,
+//           view: 'Grid view',
+//         }).firstPage(function(error, records) {
+//           if (error) {
+//             response.send({error: JSON.stringify(error)});
+//           } else {
+        
+//           }
+//         })
         cachedAirtableResponse = {
           items: records.map(record => {
             return {
               id: record.id,
               name: record.get('name'),
               needed: record.get('needed'),
-              notes: record.get('notes')
+              notes: record.get('notes'),
+              location: record.get('location')
             };
           }),
         }

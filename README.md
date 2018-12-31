@@ -15,4 +15,6 @@ LONGITUDE=
 ```
 
 ## TODO
+- add store location to shopping list items
+- block ui while waiting for server to boot up
 - save/sync drawings
